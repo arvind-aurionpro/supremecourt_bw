@@ -56,7 +56,7 @@ const Footer = () => {
 
   return (
     <>
-    <div className=" top_footer darkmode" style={{textAlign:'center'}}>
+    <div className=" top_footer darkmode border_bottom_color_lightgary" style={{textAlign:'center'}}>
      <span className=""><Link to="/accessbilityStatement">Accessibility Statement</Link></span>
      <span className="">&nbsp;|&nbsp; <a href="#">Help</a></span>
      <span className="">&nbsp;|&nbsp; <a href="#">Privacy Policy</a></span>
@@ -85,7 +85,7 @@ const Footer = () => {
           </div>
         </div>
         <hr />
-        <div className="row text-center py-5">
+        <div className="row text-center py-5 border_bottom_color_lightgary">
           <div className="col-12 position-relative">
             <p className="text-uppercase">Correspondence</p>
             <p>

@@ -5,14 +5,41 @@
 }
 
 body {
-  background-color: #F5F5F5;
+  background-color: black;
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
   
 }
-.common_text_color{
-  color: #103654;
+
+body a{
+  color: white !important;
 }
+
+.pagination a{
+  background-color: black !important;
+}
+.table tr td{
+  color: white !important;
+}
+.table tr th{
+  color: white !important;
+}
+
+.common_text_color{
+  color: white;
+}
+
+h4{
+  color: white !important;
+}
+h3{
+  color: white !important;
+}
+
+li{
+  background-color: black !important;
+}
+
 .hidden{
   visibility: hidden;
 }
@@ -21,18 +48,18 @@ body {
   top: 0;
   width: 100%;
   z-index: 2000;
-  background-color: white;
+  background-color: black;
   box-shadow: 2px 2px white;
   padding-left: 7px;
   padding-right: 7px;
 }
 .topbar {
-  background-color: #f9f9f9;
+  background-color: black;
   padding: 0.5rem 0;
 }
 
 .topbar a{
-    color: #0d0d0d;
+    color: white;
     text-decoration: none;
 }
 
@@ -53,7 +80,7 @@ body {
 }
 
 .mysearchbox {
-  border: 2px solid #dededf;
+  border: 2px solid transparent;
   width: 50%;
 }
 .searchfiltertxt {
@@ -61,13 +88,13 @@ body {
   top: 0px;
 }
 .after_login_color{
-  color:  #103654 !important;
+  color:  white !important;
 }
 
 
 
 .searchfiltertxt a {
-  color: #0d0d0d;
+  color: white;
   text-decoration: none;
 }
 
@@ -77,23 +104,22 @@ body {
 
 
 .nav-scroller{
-    background-color: #103654;
+    background-color: black;
 }
 
 .nav-scroller a{
-    color: #ffffff;
+    color: white;
     text-decoration: none;
 }
 .nav_color_hover:hover{
-  color:#94D0FF;
+  color:white;
 }
-
 .nav_active{
-  color:#103654;
-  background-color: #94D0FF;
+  color:black !important;
+  background-color: white;
 }
 .nav_active:hover{
-  color:black;
+  color:black !important;
  
 }
 
@@ -109,7 +135,7 @@ body {
 
 .meetinginfo-box h6, 
 .noticeinfo-box h6{
-    color: #103654;
+    color: white;
 }
 .noticeinfo-box ul {
     padding-left: 0;
@@ -123,14 +149,14 @@ body {
 .custom_container{
   width:98%;
   margin-left: 1%;
-  background-color: white;
+  background-color: black;
 }
 
 .base_child{
   margin-top: 233px;
 }
 .latest_upadte{
-  background-color: rgb(31,106,161);
+  background-color: black;
   padding-top: 1%;
   padding-bottom: 1%;
   color: white;
@@ -155,7 +181,7 @@ div.scroll {
 }
 .tiles{
   width:100%;
-  background-color: rgb(231,244,255);
+  background-color:black;
  
 
 }
@@ -173,12 +199,20 @@ div.scroll {
 .tile_link{
   font-size: .8em;
 }
+.react-calendar__tile--now {
+  background: gray  !important;
+  
+}
 .react-calendar{
-  background-color: rgb(242,249,252) !important;
-  border: 2px solid rgb(168, 209, 243) !important;
-  box-shadow: 2px 2px 2px lightgray;
+  background-color: black !important;
+  border: 2px solid lightgray!important;
+ 
   border-radius: 8px !important; 
   width: 100% !important;
+  color: white !important;
+}
+.react-calendar__navigation button{
+background-color: white !important;
 }
 
 .leftside_content{
@@ -197,16 +231,16 @@ div.scroll {
   padding:3px 0px 3px 0px;
 }
 .date_bg{
-  background-color: rgb(231,244,255);
+  background-color: black;
   
 }
 .month_bg{
-  background-color: rgb(31,106,161);
+  background-color: black;
   color: white;
 }
 
 .footer{
-  background-color: #103654;
+  background-color: black;
   color: white;
   padding-top:2%;
   padding-left:2%;
@@ -226,7 +260,7 @@ div.scroll {
 .footer_end{
   color: white;
   padding:2%;
-  background-color: rgb(8,37,60);
+  background-color: black;
   margin: 0px !important;
 }
 .footer_end p {
@@ -237,7 +271,7 @@ div.scroll {
   text-decoration: none;
 }
 .text_color{
-  color: #6da4d1;
+  color: white;
 }
 .digitalindia{
   top: 0%;
@@ -260,7 +294,7 @@ div.scroll {
  
   width: 292px;
   visibility: hidden;
-  background-color:rgb(253, 251, 251);
+  background-color:black;
   z-index: 190908;
   text-align: center;
   transition: all .5s;
@@ -283,18 +317,30 @@ div.scroll {
   color: white !important;
 }
 .drop .dropdown-item{
-  color: black !important;
+  color: white !important;
 }
 .drop:hover {
   color: white !important;
 }
+.dropdown-item:hover, .dropdown-item:focus{
+  color: black !important;
+  background-color:white !important;
+}
+.react-calendar__tile--active{
+  color: black !important;
+  background-color:white !important;
 
+}
+.btn-primary{
+  color: white !important;
+  background-color:black !important;
+}
 .social_media{
   position: fixed;
   top: 40%;
   right: 0%;
   z-index: 9999;
-  background-color: white;
+  background-color:black;
   padding: 10px;
   border-radius: 25px;
 
@@ -330,7 +376,7 @@ div.scroll {
 }
 /* Chief Justice & Judges CSS START Here */
 .left-link-panel, .right-panel{
-  background-color: #fff;
+  background-color:black;
   height: 100%;
   border: 1px solid #E9E9E9;  
   box-sizing: border-box;
@@ -340,7 +386,7 @@ div.scroll {
   padding: 1rem 2rem;
 }
 .left-link-panel h4{
-  background-color: #C8E7FF;
+  background-color:black;
   font-size: 1.1rem;
   color:#103654;
   padding: 1rem;
@@ -358,13 +404,13 @@ div.scroll {
 }
 
 .left-link-panel ul li a{
-  color:#0D0D0D;
+  color:white;
   text-decoration: none;
   transition: all .5s;
 }
 .left-link-panel ul li a:hover,
 .left-link-panel ul li a:focus{
-color: #103654;
+color: white;
 }
 .judges-info{
   margin-bottom: 1rem;
@@ -401,6 +447,14 @@ color: #103654;
 .dob,.doa,.dor{
   display: block;
 }
+.description-txt p{
+  color: black !important;
+}
+.description-txt a{
+  color: black !important;
+}
+
+
 /* Chief Justice & Judges CSS END Here */
 
 
@@ -420,7 +474,7 @@ color: #103654;
  
   margin-top:10px;
   margin-bottom: 10px;
-  background-color: white;
+  background-color: black;
 }
 .dashboard_content{
   width: 98%;
@@ -442,34 +496,20 @@ color: #103654;
   padding: 20px;
   width: 25%;
   border-radius: 48%;
-  background-color: rgba(255, 255, 255, .5);;
+  background-color:black;
   
-  color: #E3A66E;
+  color: white;
   
 }
 
 
-.dashboard_tile_bg1{
-  background: linear-gradient(180deg, rgba(243, 199, 158, 0.4) 0%, rgba(249, 231, 215, 0.4) 100%);  
+
+.dashboard_tile_bg{
+  background: white; 
+  color:black !important; 
 }
 
-.dashboard_tile_bg2{
-  background: linear-gradient(180deg, rgba(144, 205, 231, 0.4) 0%, rgba(201, 231, 244, 0.4) 100%);  
-}
 
-.dashboard_tile_bg3{
-  background: linear-gradient(180deg, rgba(75, 208, 200, 0.4) 0%, rgba(113, 238, 230, 0.4) 100%);
-}
-.dashboard_tile_bg4{
-  background: linear-gradient(180deg, rgba(120, 234, 172, 0.4) 0%, rgba(147, 249, 194, 0.4) 100%);
-  }
-
-.dashboard_tile_bg5{
-  background: linear-gradient(180deg, rgba(238, 173, 239, 0.4) 0%, rgba(248, 204, 249, 0.4) 100%);
-} 
-.dashboard_tile_bg6{
-  background: linear-gradient(180deg, rgba(240, 162, 167, 0.4) 0%, rgba(250, 217, 220, 0.4) 100%);
-}
 /* Dashboard & Circulars CSS END Here */
 
 
@@ -500,12 +540,12 @@ color: #103654;
   padding: 1rem 2rem;
 }
 .profile-txt div:first-child{
-border-left: 10px solid #1F6AA1;
+border-left: 10px solid black;
 padding-left: 1rem;
 }
 
 .profile-txt h5{
-  border-left: 10px solid #1F6AA1;
+  border-left: 10px solid black;
 padding-left: 1rem;
 }
 .profile-txt p:first-child{
@@ -521,13 +561,21 @@ padding-left: 1rem;
 .pleft-23{
   padding-left: 1.64rem;
 }
-
+.profile-txt p{
+  color: black !important;
+}
+.profile-txt a{
+  color: black !important;
+}
+.profile-txt h5{
+  color: black !important;
+}
 /* Judge profile & Circulars CSS END Here */
 
 /* dashboad css start here */
 
 .casecontent{
-border: 2px solid rgb(168, 209, 243);
+border: 2px solid lightgray;
 border-radius: 8px;
 height: 100%;
 }
@@ -550,19 +598,6 @@ height: 100%;
     transition: .3s linear;
   animation: arvi 1s ease-in-out infinite  alternate;
   /* visibility: visible; */
-}
-
-element.style {
-  flex: 0 0 14.2857%;
-  overflow: hidden;
-}
-button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled) {
-  cursor: pointer;
-}
-.react-calendar button {
-  margin: 0;
-  border: 0;
-  outline: none;
 }
 
 @keyframes arvi {
@@ -589,7 +624,7 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
   padding: 0px 20px;
   background: rgba(56, 54, 54, 0.86);
   position: absolute;
-  bottom:118%;
+  bottom:100%;
   left: -0%;
   border-radius: 9px;
   font-size: 12px;
@@ -617,6 +652,13 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
 
 }
 
+.react-calendar__tile {
+  background-color: black ;
+  color: white !important;
+}
+.react-calendar__tile:enabled:hover, .react-calendar__tile:enabled:focus{
+  color: black !important;
+}
 .darkmode_color{
   color: #fff600 !important;
 }
@@ -627,16 +669,23 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
 }
 
 .form-check-input:checked {
-  background-color: #103654;
-  border-color: #103654;
+  background-color: lightgray;
+  border-color: lightgray;
 }
+
 
 .leftSideLink:hover{
   color:#0d6efd !important;
 }
+.border_bottom_color_lightgary{
+  border-bottom: .5px solid lightgray !important;
+}
+.border_color_lightgary{
+  border: .5px solid lightgray !important;
+}
 
 .top_footer{
-  background:rgb(31,106,161);
+  background:black;
   text-align:'center';
   padding: 5px;
   color: white;

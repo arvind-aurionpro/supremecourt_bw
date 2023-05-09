@@ -61,7 +61,7 @@ const Slider = () => {
         </button>
       </div>
 
-      <div className="row latest_upadte">
+      <div className="row latest_upadte border_bottom_color_lightgary">
         <div className="col-2 text-end">
           LATEST UPDATES &nbsp;&nbsp;<span>|</span>
         </div>

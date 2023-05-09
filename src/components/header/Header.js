@@ -1,7 +1,7 @@
 import { useState,useContext,useEffect } from "react";
 import Navigation from "../navigation/Navigation";
 import { MyContext } from "../basepage/BasePage";
-import { accessibility } from "../../utils/functions";
+import { accessibility, blackAndWhite } from "../../utils/functions";
 import { darkMode, lightMode } from "../../utils/functions";
 const Header = () => {
   accessibility('322')
@@ -10,6 +10,7 @@ const Header = () => {
   const allContext = useContext(MyContext)
 
   useEffect(()=>{
+    blackAndWhite()
     if(allContext.hasOwnProperty('darkMode') && allContext.darkMode){
 
       if(darkmode){
@@ -193,17 +194,11 @@ const Header = () => {
         <div className="row py-2 darkmode">
           <div className="col-4">
 
-            {
-              darkmode && allContext.hasOwnProperty('darkMode') && allContext.darkMode?(
-                <a href="#">
+                 <a href="#">
                 <img src="/img/sci-logo-darkmode.svg" alt='logo' className="scilogo"/>
               </a>
-              ):(
-                <a href="#">
-                <img src="/img/sci-logo.svg" alt='logo' className="scilogo"/>
-              </a>
-              )
-            }
+              
+            
            
           </div>
           <div className="col-8 d-flex justify-content-end align-items-center position-relative">

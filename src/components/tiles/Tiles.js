@@ -4,7 +4,7 @@ const Tiles = (props) => {
   return (
     <>
     
-      <div className="tiles position-relative">
+      <div className="tiles position-relative border_color_lightgary">
         {/* <span className="tooltiptext">{props.tooltipsText}</span> */}
 
         <div class="tooltip ">

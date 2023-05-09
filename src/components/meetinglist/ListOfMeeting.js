@@ -1,7 +1,7 @@
 const ListOfMeeting = (props) =>{
     return(
         <div className="row">
-            <div className="col-3">
+            <div className="col-3 border_color_lightgary" style={{height:'fit-content'}}>
                 <div className="date_month date_bg">{props.date}</div>
                 <div className="date_month month_bg">{props.month}</div>
             </div>

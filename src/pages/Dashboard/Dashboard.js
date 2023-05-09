@@ -140,7 +140,7 @@ const Dashboard = () => {
                     <div className="col-sm-3">
 
                     
-                      <div className="row dashboard_count_tile dashboard_tile_bg2 py-2 mb-2">
+                      <div className="row dashboard_count_tile dashboard_tile_bg2 py-2 mb-2 border_color_lightgary">
                         <div className="col-sm-8">
                           <p>Total Cases</p>
                           <h5 className="common_text_color">342342</h5>
@@ -149,7 +149,7 @@ const Dashboard = () => {
                         <img src="/img/dashboard_tile_icon/casesicon.svg" alt='casesicon' style={{width:'100%'}}/>
                         </div>
                       </div>
-                      <div className="row dashboard_count_tile dashboard_tile_bg1 py-2 mb-2">
+                      <div className="row dashboard_count_tile dashboard_tile_bg1 py-2 mb-2 border_color_lightgary">
                         <div className="col-sm-8">
                           <p>Closed Cases</p>
                           <h5 className="common_text_color">87687</h5>
@@ -159,7 +159,7 @@ const Dashboard = () => {
                         </div>
                       </div>
 
-                      <div className="row dashboard_count_tile dashboard_tile_bg3 py-2 mb-2">
+                      <div className="row dashboard_count_tile dashboard_tile_bg3 py-2 mb-2 border_color_lightgary">
                         <div className="col-sm-8">
                           <p>Ongoling Cases</p>
                           <h5 className="common_text_color">546465</h5>

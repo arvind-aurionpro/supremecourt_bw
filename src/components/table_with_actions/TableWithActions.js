@@ -4,7 +4,7 @@ const TableWithActions = (props) => {
     <>
       <table className="table table-striped table-hover mt-5">
         <thead>
-          <tr className="bg-light">
+          <tr className="bg-dark">
             <th scope="col"  className="py-3">S.No</th>
             <th scope="col"  className="py-3">Discription</th>
             <th scope="col"  className="py-3">Date</th>

@@ -108,3 +108,10 @@ export const setwebTitle = (webTitle) =>{
 
   document.getElementById('title').text = `${webTitle} | Supreme Court`
 }
+
+export const blackAndWhite = () =>{
+
+  document.body.style.color = 'white'
+  document.body.style.background = 'black'
+
+}

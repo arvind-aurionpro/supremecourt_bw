@@ -23,7 +23,7 @@ const JudgeProfile = () =>{
   }
     return(
         <>
-        <BasePage darkMode = {true}>
+        <BasePage darkMode = {false}>
         
         <main className="my-3">
         <div className="container-fluid">

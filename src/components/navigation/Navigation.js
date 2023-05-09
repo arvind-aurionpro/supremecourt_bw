@@ -6,7 +6,7 @@ const Navigation = () => {
 
   const active_nav = useContext(MyContext).active_nav
   return (
-    <div className="row ">
+    <div className="row border_color_lightgary">
       <div className="nav-scroller py-3 darkmode">
         <nav className="nav d-flex justify-content-center">
           <Link className= {active_nav==1? ' p-2 ms-2 nav_color_hover nav_active':" p-2 ms-2 nav_color_hover"} to="/">
