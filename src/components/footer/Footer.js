@@ -56,7 +56,7 @@ const Footer = () => {
 
   return (
     <>
-    <div className=" top_footer darkmode border_bottom_color_lightgary" style={{textAlign:'center'}}>
+    <div className=" top_footer darkmode bg-dark" style={{textAlign:'center'}}>
      <span className=""><Link to="/accessbilityStatement">Accessibility Statement</Link></span>
      <span className="">&nbsp;|&nbsp; <a href="#">Help</a></span>
      <span className="">&nbsp;|&nbsp; <a href="#">Privacy Policy</a></span>
